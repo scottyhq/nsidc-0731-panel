@@ -3,11 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - python=3.7
-  - jupyterlab=1
-  - jupyter-server-proxy=1
+  - jupyterlab=1.1
+  - jupyter-server-proxy=1.1
   - boto3=1.9
   - xarray=0.13
-  - rasterio=1
+  - rasterio=1.0
   - panel=0.6
   - holoviews=1.12
   - hvplot=0.4
@@ -16,4 +16,5 @@ dependencies:
   - geopandas=0.6
   - dask=2.5
   - datashader=0.8
-  - nodejs=11
+  - nodejs=11.14
+  - nteract_on_jupyter=2.0
